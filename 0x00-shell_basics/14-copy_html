@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -vRp *.html /root/
+find . -name *.html -type f -exec cp -uvn {} /root/
